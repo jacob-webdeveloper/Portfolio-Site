@@ -17,19 +17,32 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--isabelline);
 }
 
 header, footer {
     background-color: var(--cerulean);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header {
     height: 10dvh;
     width: 100dvw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color: var(--orange-pantone);
+    color: white;
+    padding: 0.25em;
+    border-radius: 0.5em;
+}
+
+nav > a:hover {
+    background-color: red;
 }
 
 main {
@@ -42,16 +55,16 @@ main {
 }
 
 main > * {
-    margin: 1em;
+    margin: 0.5em;
 }
 
 main > img {
-    height: 30dvh;
+    height: 20dvh;
     width: auto;
     margin: 2em; 
     background-color: var(--delft-blue);
     color: red;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 footer {
