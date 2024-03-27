@@ -1,0 +1,43 @@
+:root {
+    --orange-pantone: #f75c03ff;
+    --isabelline: #f2e9e4ff;
+    --delft-blue: #1d3461ff;
+    --polynesian-blue: #1f487eff;
+    --cerulean: #247ba0ff;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    background-color: var(--cerulean);
+}
+
+header {
+    height: 10dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    min-height: 85dvh;
+    width: 100dvw;
+}
+
+footer {
+    height: 5dvh;
+    width: 100dvw;
+}
+
+
