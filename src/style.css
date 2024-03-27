@@ -46,12 +46,12 @@ main > * {
 }
 
 main > img {
-    height: 20dvh;
-    width: 50dvw;
+    height: 30dvh;
+    width: auto;
     margin: 2em; 
     background-color: var(--delft-blue);
     color: red;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 footer {
