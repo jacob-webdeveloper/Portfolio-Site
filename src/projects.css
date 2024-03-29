@@ -29,3 +29,16 @@
 .projectpreview:hover {
     border-radius: 0;
 }
+
+.projectpreview > section {
+    display: flex;
+    column-gap: 2em;
+}
+
+.projectpreview > section > a{
+    background-color: rgb(126, 199, 248);
+    padding: 1em;
+    border-radius: 2em;
+    border: 1px solid white;
+}
+
